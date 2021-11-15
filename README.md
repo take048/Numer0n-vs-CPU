@@ -2,4 +2,5 @@
 Game
 
 gcc numeron.c
+
 ./a.out

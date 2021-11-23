@@ -26,7 +26,11 @@ int main(int argc,char*argv[])
     keta=0;//桁と数字が一致している数
     suu=0;//数字だけが一致している数
     scanf("%d",&ans);//入力の取得
-    if(ans==0){printf("%d\n",ques);}//0が入力されたとき答えの表示
+    if(ans==0){//0が入力されたとき答えの表示
+      printf("%d\nもう一度：",ques);
+      i--;
+      continue;
+    }
 
     //入力した数に同じ数字字が含まれている時、もう一度入力させる
     if(ans/100==ans/10-ans/100*10

@@ -11,6 +11,7 @@ Numer0n vs CPUはフジテレビ系列の番組、「Numer0n」で行われて�
 gcc numeron.c
 ./a.out
 ```
+gcc numeron.c -finput-charset=UTF-8 -fexec-charset=CP932
 # ルール
 ゲームの勝利条件はアプリケーションが生成した答えの数字を推理し、当てることです。
 

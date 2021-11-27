@@ -8,13 +8,13 @@ Numer0n vs CPUはフジテレビ系列の番組、「Numer0n」で行われて�
 
 また、ソースコードはUTF-8で書かれているため、Windowsでコンパイルを行う場合はShift-Jisに変換する必要があります。
 
-例：gccの場合(MacOS)
+例：MacOSの場合
 ```
 gcc numeron.c
 ./a.out
 ```
 
-例：gccの場合(Win)
+例：Windowsの場合
 ```
 gcc numeron.c -finput-charset=UTF-8 -fexec-charset=CP932
 ./a.exe

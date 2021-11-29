@@ -4,21 +4,21 @@ Numer0n vs CPUはフジテレビ系列の番組、「Numer0n」で行われて�
 使用言語：C言語
 
 # ゲームの始め方
-本アプリケーションはC言語で書かれているので、通常のやり方でコンパイルしていただき、生成された実行ファイルを実行させてください。
-
-また、ソースコードはUTF-8で書かれているため、Windowsでコンパイルを行う場合はShift-Jisに変換する必要があります。
+本アプリケーションはC言語で書かれているので、MAC OSの場合、通常のやり方でコンパイルしていただき、生成された実行ファイルを実行させてください。
 
 例：MacOSの場合
 ```
-gcc numeron.c
+gcc RPGHead.h RPGMain.c RPGArith.c
 ./a.out
 ```
 
+アプリケーションに使用するソースコードはUTF-8で書かれているのでMAC OSでの動作を推奨します。
+もし、Windowsで使用する場合は、コンパイルは以下のようにお願いします。
+
 例：Windowsの場合
 ```
-gcc numeron.c -finput-charset=UTF-8 -fexec-charset=CP932
-./a.exe
-```
+gcc RPGHead.h RPGMain.c RPGArith.c -finput-charset=UTF-8 -fexec-charset=CP932
+a.exe
 
 # ルール
 ゲームの勝利条件はアプリケーションが生成した答えの数字を推理し、当てることです。

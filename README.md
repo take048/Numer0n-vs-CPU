@@ -19,6 +19,7 @@ gcc RPGHead.h RPGMain.c RPGArith.c
 ```
 gcc RPGHead.h RPGMain.c RPGArith.c -finput-charset=UTF-8 -fexec-charset=CP932
 a.exe
+```
 
 # ルール
 ゲームの勝利条件はアプリケーションが生成した答えの数字を推理し、当てることです。

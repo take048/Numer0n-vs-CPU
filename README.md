@@ -8,7 +8,7 @@ Numer0n vs CPUはフジテレビ系列の番組、「Numer0n」で行われて�
 
 例：MacOSの場合
 ```
-gcc RPGHead.h RPGMain.c RPGArith.c
+gcc numeron.c
 ./a.out
 ```
 
@@ -17,7 +17,7 @@ gcc RPGHead.h RPGMain.c RPGArith.c
 
 例：Windowsの場合
 ```
-gcc RPGHead.h RPGMain.c RPGArith.c -finput-charset=UTF-8 -fexec-charset=CP932
+gcc numeron.c -finput-charset=UTF-8 -fexec-charset=CP932
 a.exe
 ```
 
